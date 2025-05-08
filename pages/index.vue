@@ -115,6 +115,7 @@ onMounted(() => {
   loadUsers();
   handleConnect();
   themeStore.initializeTheme();
+  console.log("Изменение")
 });
 </script>
 
