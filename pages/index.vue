@@ -126,7 +126,7 @@ onMounted(() => {
       <ChatList :chats="users" @chat-selected="setSelectedChat" />
       <ChatWindow v-if="selectedChat" :chat="selectedChat" :messages="messages" @send-message="sendMessage" />
       <div class="flex w-full justify-center items-center" v-if="!selectedChat">
-        <div class="text-xl text-slate-300">In our innovative social network you can communicate with all users Пашёл ты нафик</div>
+        <div class="text-xl text-slate-300">In our innovative social network you can communicate with all users</div>
       </div>
     </div>
   </div>
