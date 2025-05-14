@@ -1,0 +1,1 @@
+import{a2 as t}from"./CbPVYeBB.js";const r=t("auth",{state:()=>({username:"",isAuthenticated:!1}),actions:{login(e){this.username=e,this.isAuthenticated=!0},logout(){this.username="",this.isAuthenticated=!1}},getters:{currentUser:e=>e.username},persist:!0});export{r as u};
