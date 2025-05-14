@@ -1,7 +1,7 @@
 <script setup>
-definePageMeta({
-  middleware: ["auth"],
-});
+// definePageMeta({
+//   middleware: ["auth"],
+// });
 
 import { io } from "socket.io-client";
 import { useThemeStore } from "~/stores/theme";
