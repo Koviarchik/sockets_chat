@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "nuxt generate && gh-pages -d dist",
+    "pages": "gh-pages -d dist"
   },
   "dependencies": {
     "@nuxt/ui": "^3.1.1",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.5",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3"
   }
 }

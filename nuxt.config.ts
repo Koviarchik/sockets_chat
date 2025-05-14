@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  target: "static", // Устанавливаем статический режим
+  generate: {
+    fallback: true  // Если требуется поддержка страниц 404 
+  },
   postcss: {
     plugins: {
       autoprefixer: {},
